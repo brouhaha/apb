@@ -1,0 +1,7 @@
+*.dis
+*.bin
+*.obj
+*.lst
+*.dsk
+*.p
+*~

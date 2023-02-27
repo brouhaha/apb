@@ -270,7 +270,10 @@ b_data_buf	rmb	256
 ram_buf	equ	$4000
 
 
-
+	org	origin-4
+; DOS binary file header
+	fdb	origin
+	fdb	256-4		; load one sector, less the DOS binary file header
 
 	org	origin
 
